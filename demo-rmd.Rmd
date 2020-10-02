@@ -11,6 +11,12 @@ knitr::opts_chunk$set(echo = TRUE)
 
 # Working with markdown-based packages
 
+## Hugo {#hugo}
+
+Hugo includes support for shortcodes, which are special macros generally used to render more complex objects (e.g. tweets or videos). You can include shortcodes in visual mode by just typing them with the normal Hugo syntax:
+
+![](images/short.png)
+
 ## Bookdown {#bookdown}
 
 Visual mode supports cross-references and Part headers from the [`bookdown`](https://bookdown.org/ "bookdown") package. This helps you visually organize chapters and parts of your bookdown docs and cross-reference files more easily.
@@ -29,7 +35,7 @@ Cross-references enable you to easily link to figures, equations, and even arbit
 
 ## flexdashboard {#flexdashboard}
 
-Dashboards created with [`flexdashboard`](https://rmarkdown.rstudio.com/flexdashboard/ "flexdashboard") can now be edited in Visual mode.
+Dashboards created with [`flexdashboard`](https://rmarkdown.rstudio.com/flexdashboard/ "flexdashboard") can be edited in Visual mode.
 
 The `flexdashboard` package uses R Markdown to create and edit interactive dashboards. This update is quite helpful for visualizing dashboard layouts and components.
 
